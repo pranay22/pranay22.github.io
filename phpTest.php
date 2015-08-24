@@ -21,6 +21,7 @@
   <?php
     echo '<p>PHP Test!</p>';
   ?>
+  Github Pages is not a full-featured web host. It will not execute PHP, or any other arbitrary code.
   <br/>
   <footer>Copyright @Pranay - 2015</footer>
 </body>
