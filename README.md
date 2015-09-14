@@ -1,2 +1,3 @@
 # pranay22.github.io
-Initial Commit
+
+All pages are in "index.html".
