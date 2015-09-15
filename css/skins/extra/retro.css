@@ -1,0 +1,21 @@
+
+/* RETRO STYLE 
+	- minimal styles */
+
+.history-unit h5, .history-unit h4 .work-time { border-color:#ccc; }
+input, textarea, .social li a, .bar { background-color: #fff; }
+
+/* CONTACT FORM */
+input, textarea, .social li a { color:#222; }
+input:focus, textarea:focus { background-color: #fff; }
+::-webkit-input-placeholder { color: #aaa; }
+:-moz-placeholder { color: #aaa; }
+:-ms-input-placeholder { color: #aaa; }
+
+/* NEW SOCIAL ICONS */
+.social li a.pinterest { background-image:url(../../../images/bckg/pinterest-icon.png); }
+.social li a.soundcloud { background-image:url(../../../images/bckg/soundcloud-icon.png); }
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+	.social li a.pinterest { background-image:url(../../../images/bckg/pinterest-icon@2x.png); }
+	.social li a.soundcloud { background-image:url(../../../images/bckg/soundcloud-icon@2x.png); }
+}
