@@ -1,6 +1,6 @@
 # pranay22.github.io
 
-**Site Code Description:**
+**Site Code Description:**  
 This is the source code repository for pranay22.github.io
 Used technologies: HTML5, CSS3, JavaScript, Bootstrap.
 Mostly, the site is single page where all contents are in 'index.html'. Apart from some pages which are descripbed in portfolio section.  
