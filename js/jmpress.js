@@ -14,6 +14,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  *
  * Based on the foundation laid by Bartek Szopka @bartaz
+ * Modified by Pranay Sarkar
  */
 
 /*!
