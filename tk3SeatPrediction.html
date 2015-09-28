@@ -3,7 +3,7 @@
 <head>
 
 	<!-- InstanceBeginEditable name="doctitle" -->
-	<title>BitsB v1.1</title>
+	<title>Image Processing Based Seat Prediction Algorithm</title>
 	<!-- InstanceEndEditable -->
 
     <meta charset="utf-8" />
@@ -30,47 +30,35 @@
     <script>
     	$(function() { $(".portfolio-single").fitVids(); })
     </script>
-
-
-
 </head>
 
 <body>
-
-
-
     <div class="portfolio-single container">
-
         <div class="row">
-
             <!-- InstanceBeginEditable name="Content" -->
-
-
 			<!-- TITLE - column 8/12 -->
             <div class="span8 portfolio-field portfolio-title">
-            	<h2>BitsB v1.1</h2>
+            	<h2>Ubiquitous Seat Monitoring & Management System with Prediction Facility</h2>
             </div>
             <!-- TITLE - column 8/12 -->
 
 
 			<!-- PORTFOLIO-NAV - column 4/12 -->
             <div class="span4 portfolio-field portfolio-nav">
-                <a class="icon button prev ajax" href="boss.html">&lt;</a>
+                <a class="icon button prev ajax" href="bitsbv1.1.html">&lt;</a>
                 <a class="icon button back" href="/#/portfolio">Â</a>
-                <a class="icon button next ajax" href="tk3SeatPrediction.html">=</a>
+                <a class="icon button next ajax" href="#">=</a>
             </div>
 			<!-- PORTFOLIO-NAV - column 4/12 -->
 
 
 			<!-- PORTFOLIO-IMAGES - column 8/12 -->
             <div class="span8 portfolio-field">
-                <img src="images/bitsb/BitsB-Login.png" alt="bitsb-login">
-		<img src="images/bitsb/BitsB-Homepage.png" alt="bitsb-homepage">
-		<img src="images/bitsb/BitsB-Forum.png" alt="bitsb-forum">
-		<img src="images/bitsb/BitsB-ForumBody.png" alt="bitsb-frum-body">
-		<img src="images/bitsb/BitsB-Blackjack.png" alt="bitsb-blackjack">
-		<img src="images/bitsb/BitsB-Casino.png" alt="bitsb-casino">
-		<img src="images/bitsb/BitsB-Staffs.png" alt="bitsb-staffs">
+                <img src="images/tk3-seat-prediction/index_page.png" alt="seat-prediction-homepage">
+		<img src="images/tk3-seat-prediction/room_details.png" alt="seat-prediction-room-details">
+		<img src="images/tk3-seat-prediction/seat_info_and_history.png" alt="seat-prediction-seat-info-history">
+		<img src="images/tk3-seat-prediction/search_page.png" alt="seat-prediction-search-page">
+		<img src="images/tk3-seat-prediction/seat_search_result.png" alt="seat-prediction-search-result">
             </div>
 			<!-- PORTFOLIO-IMAGES - column 8/12 -->
 
@@ -79,44 +67,34 @@
             <div class="span4 portfolio-field">
 
                 <h3>Project Description</h3>
-                <p>Peer to Peer based file sharing site with:
-		<ul>
-		<li>Updatable News section (collapsible)</li>
-		<li>Complete forum system with usermood</li>
-		<li>iFrame Based Chatbox</li>
-		<li>Full BBCode integration</li>
-		<li>Advanced random login system (Pressing Enter key will not work)</li>
-		<li>BlackJack game stimulation</li>
-		<li>Casino game stimulation</li>
-		<li>Paypal integratable donation system</li>
-		<li>RSS feed (standard)</li>
-		<li>Cookie based blocking system</li>
-		<li>Memcached for sql query optimization</li>
-		<li>Complete admin panel</li>
-		<li>Advanced jQuery based blocks</li>
-		<li>jQuery based information/warning/error providing system</li>
-		<li>Logged in user activity tracker (online/offline status)</li>
-		<li>And Many more related to modification of incentive based peer tp peer algoritm...</li>
-		</ul>		
+                <p>Remote controlling, monitoring seat management system for any room which have a networked camera and many seats. This project have many parts:
+		<ol>
+		<li><u>Node module:</u> It runs on each of the closest systems attached to networked cameras. (done using: C++)</li>
+		<li><u>Image detection:</u> Done in the same devices where node module runs. (done using: C++)</li>
+		<li><u>Database connector:</u> The remote modules have to connect to a central server containg a database and webserver. (done using: C++, MySQL C++ connector)</li>
+		<li><u><b>WebServer:</b></u> Webserver runs on the centralized machine. It shows status of rooms, seats. Seat searching functionality is included here. Also camera configuration can be done here (i.e. marking seat position which will be motored all the time). Result of prediction algorithm is also shown here as per seat basis. (done using: PHP, JavaScript, Jquery)</li>
+		<li><u>Prediction Algorithm:</u> Runs in the same server as database and webserver. Prediction algorithm uses seat occupancy history to determine whether the seat will be free for the specified time or not. (done using: Python)</li>
+		</ol>		
 		</p>
                 <p></p>
 
                 <h3>Client</h3>
-                <p>--</p>
+                <p>Part of TK3-Ubiquitous/Mobile Computing Projects</p>
 
                 <h3>Technology</h3>
                 <ul class="tags">
                     <li><a>PHP</a></li>
-                    <li><a>MySQL</a></li>
-                    <li><a>HTML</a></li>
                     <li><a>JavaScript</a></li>
-                    <li><a>CSS 3</a></li>
+                    <li><a>HTML</a></li>
                     <li><a>jQuery</a></li>
-                    <li><a>Memcached</a></li>
+		    <li><a>Python</a></li>
+                    <li><a>CSS 3</a></li>
+                    <li><a>Python</a></li>
+                    <li><a>C++</a></li>
                 </ul>
 
                 <div class="launch">
-                	<a href="https://github.com/pranay22/BitsB1.1" class="btn">GitHub Link</a>
+                	<a href="https://github.com/pranay22/tu-darmstadt-TK3/tree/master/Final%20Project" class="btn">GitHub Link</a>
                 </div>
 
             </div>
@@ -124,16 +102,14 @@
 
             <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
             <div class="span12 portfolio-field portfolio-nav bottom">
-                <a class="icon button prev ajax" href="boss.html">&lt;</a>
+                <a class="icon button prev ajax" href="bitsbv1.1.html">&lt;</a>
                 <a class="icon button back" href="/#/portfolio">Â</a>
-                <a class="icon button next ajax" href="tk3SeatPrediction.html">=</a>
+                <a class="icon button next ajax" href="#">=</a>
             </div>
 			<!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
 
             <!-- InstanceEndEditable -->
-
         </div>
-
     </div>
 
 
