@@ -9,6 +9,7 @@ More info about portfolio: Image and video can also be embedded. Iframe videos f
 
 Update: 28/09: Transition styles fied with new update.  
 Update: 02/10: Min CV PDF added in /data folder.  
+Update: 05/01/2017: Updated Ponttec GmbH workdays.  
 
 This page will be updated if any more enhancements are added in future.  
 Last change date: 25/09/2015  
